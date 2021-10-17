@@ -1,0 +1,43 @@
+.dot {
+  height: 1rem;
+  width: 1rem;
+  background-color: #424242;
+  margin-bottom: 4px;
+  border-radius: 100px;
+}
+.dot:last-child {
+  margin-bottom: 0;
+}
+
+.square {
+  height: 1rem;
+  width: 1rem;
+  background-color: #424242;
+  margin-bottom: 4px;
+}
+.square:last-child {
+  margin-bottom: 0;
+}
+
+.rect {
+  height: 0.5rem;
+  width: 2.5rem;
+  background-color: #424242;
+  margin-bottom: 4px;
+}
+.rect:last-child {
+  margin-bottom: 0;
+}
+
+.menu {
+  margin: 8px 0;
+  width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  cursor: pointer;
+}
+.menu:hover .dot,
+.menu:hover .square,
+.menu:hover .rect {
+  background-color: rgba(68, 240, 76, 0.4);
+}
